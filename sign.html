@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subcribe</title>
+	<style type="text/css">
+		body{
+			background:url("tracy-adams-1174806-unsplash.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: sans-serif;
+		}
+		.sub-box{
+			background:rgba(0,0,0,0.5);
+			width:300px;
+			height: 300px;
+			padding: 70px 30px;
+			position: absolute;
+			top:50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			box-shadow: 0px 15px 20px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.31);
+			border-radius: 10px;
+
+		}
+		.icon{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			position: absolute;
+			top:-50px;
+			left: 100px;
+		}
+		h1{
+			margin: 0px;
+			padding: 0 0 20px;
+			text-align: center;
+			font-size: 22px;
+			color:#fff;
+		}
+		.sub-box input{
+			width:100%;
+			margin-bottom: 20px;
+		}
+		.sub-box input[type="text"]{
+			
+			border:none;
+			border-bottom: 1px solid #fff;
+			background:transparent;
+			height: 40px;
+			outline: none;
+			color: #fff;
+		}
+		.sub-box input[type="submit"]{
+		border:none;
+		outline: none;
+		height: 40px;
+		background:#1d45e5;
+		color:#fff;
+		font-size: 18px;
+		border-radius: 15px;
+	}
+	.sub-box input[type="submit"]:hover{
+		cursor: pointer;
+		background:rgb(255,0,0);
+		transition: 1s ease;
+	}
+	</style>
+</head>
+<body>
+<div class="sub-box">
+	<img src="email-icon.png" class="icon">
+	<h1>Subcribe to my Blog</h1>
+	<input type="text" name="Email" placeholder="Email">
+	<input type="submit" name="subcribe" value="Subscribe">
+</div>
+</body>
+</html>
