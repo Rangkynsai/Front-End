@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Textbox</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: #25a5a3;
+            }
+        .textarea{
+            background-color: aqua;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:400px;
+            height:500px;
+            border-radius:10px;
+            box-shadow: 0 15px 20px rgba(0,0,0, 0.21),0 8px 8px rgba(0, 0, 0, 0.23);
+        }
+        .textarea h1{
+            color:black;
+            font-size: 30px;
+            font-family: 'Courier New';
+            text-align: center;
+        }
+        .textarea input{
+            width:95%;
+            margin-bottom: 30px;
+            margin-left: 2px;
+            align-items: center;
+        }
+        .textarea input[type="text"]{
+            border:1px solid blue;
+            outline: none;
+            height:40px;
+            font-size: 16px;
+            border-radius: 15px
+        }
+        .textarea textarea{
+            width:95%;
+            margin-bottom: 30px;
+            margin-left: 2px;
+            align-items: center;
+            border:1px solid blue;
+            border-radius: 15px;
+            outline: none;
+        }
+        .textarea button{
+            color:darkblue;
+            font-size:18px;
+            width:95%;
+            margin-bottom: 30px;
+            margin-left:2px;
+            border:1px solid blue;
+            height:40px;
+            border-radius: 15px;
+            background-color:#ff1437;
+            outline:none;
+        }
+        .textarea button:hover{
+            background-color:white;
+           
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="textarea">
+            <h1>Message</h1>
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="text" name="email" placeholder="Enter Your Email">
+            <textarea rows="10" cols="50">Enter Your Text Here</textarea>
+            <button type="submit">Send</button>
+        </div>
+    </body>
+</html>
